@@ -1,17 +1,14 @@
 {
   "index": "Introduction",
+  "keyfeaturesAndBenefits": "Key Features and Benefits",
+  "digitalWallet": "Digital Wallet",
+  "faq": "FAQ",
   "documentation": "Documentation",
+  "newIntegrations": "New Integrations",
+  "privacy": "Privacy Policy",
   "agreement": "Agreement Process",
+  "pricing": "Pricing",
   "OnlinePayment": "Payment Process",
   "Refund": "Refund Process",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
-  }
+  "supportAndContact": "Support and Contact"
 }
