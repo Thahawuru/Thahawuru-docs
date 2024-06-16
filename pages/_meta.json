@@ -2,6 +2,8 @@
   "index": "Introduction",
   "documentation": "Documentation",
   "agreement": "Agreement Process",
+  "OnlinePayment": "Payment Process",
+  "Refund": "Refund Process",
   "about": {
     "title": "About",
     "type": "page"
