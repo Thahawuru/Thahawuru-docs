@@ -1,0 +1,43 @@
+# API Documentation
+
+## Thahawuru API
+
+The documentation is available for Thahawuru API and Test APIs who works on government and private web or mobile platforms. API keys can be get after a proper agreenment process. Until then developers are allowed use TestAPIs which give dummy data for developing purposes. At last developers will be able to gain API keys for the integration of Thahawuru API for their production websites, apps or mobile apps. They need to make a payment for gain the API keys annually.
+
+### Licenses , Identities and Passports verifications.
+
+First of All create a .env file and place the below lines there.
+
+```js filename=".env" {3} copy
+BASEURL_FOR_TEST_OR_API = api
+THAHAWURU_API_LICENSE_ID_PASSPORT = hudjsjallaahgsggsuuytr176;
+```
+Sample request call for **get** Licenses, Identities and Passport details.
+
+```js filename=".env" {3} copy
+
+```
+
+## Component
+
+import { useState } from 'react'
+
+{/* Import CSS modules */}
+import styles from '../components/counters.module.css'
+
+export const Counter = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)} className={styles.counter}>Clicked {count} times</button>
+    </div>
+  );
+};
+
+<Counter/>
+
+## External Component
+
+import Counters from '../components/counters'
+
+<Counters />
