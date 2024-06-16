@@ -1,9 +1,16 @@
 {
   "index": "Introduction",
+  "keyfeaturesAndBenefits": "Key Features and Benefits",
+  "digitalWallet": "Digital Wallet",
+  "faq": "FAQ",
   "documentation": "Documentation",
+  "newIntegrations": "New Integrations",
+  "privacy": "Privacy Policy",
   "agreement": "Agreement Process",
+  "pricing": "Pricing",
   "OnlinePayment": "Payment Process",
   "Refund": "Refund Process",
+  "supportAndContact": "Support and Contact",
   "about": {
     "title": "About",
     "type": "page"
