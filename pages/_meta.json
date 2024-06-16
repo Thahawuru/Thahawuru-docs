@@ -10,15 +10,5 @@
   "pricing": "Pricing",
   "OnlinePayment": "Payment Process",
   "Refund": "Refund Process",
-  "supportAndContact": "Support and Contact",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
-  }
+  "supportAndContact": "Support and Contact"
 }
