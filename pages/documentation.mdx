@@ -8,36 +8,78 @@ The documentation is available for Thahawuru API and Test APIs who works on gove
 
 First of All create a .env file and place the below lines there.
 
+For the API
+
 ```js filename=".env" {3} copy
-BASEURL_FOR_TEST_OR_API = api
+BASEURL_FOR_TEST_OR_API = https://api.thahawuru.lk/api
 THAHAWURU_API_LICENSE_ID_PASSPORT = hudjsjallaahgsggsuuytr176;
 ```
-Sample request call for **get** Licenses, Identities and Passport details.
+
+For the TestAPI
 
 ```js filename=".env" {3} copy
+BASEURL_FOR_TEST_OR_API = https://api.thahawuru.lk/testapi
+THAHAWURU_API_LICENSE_ID_PASSPORT = hudjsjallaahgsggsuuytr176;
+```
+For the developers who work on government or private software projects, they can integrate thahawuru using above two methods. They can test on the project with TestAPI and they can integrate our API facility after getting a propper API key. Below scenarios are to take data which is accissble. **Any miss use of data is punnishable with the government laws and regulations.** Certain users will be notified that their data is accessed on a particular event.
 
+Sample request call for **License, Identity and Passport** details by using **post** request.
+
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/license/identity/passport/qr/qr=qw123hgbn45lk67xc89yu/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
 ```
 
-## Component
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/license/identity/passport/nic/nic=200104562876/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
 
-import { useState } from 'react'
+Sample request call for **Identity** details by using **post** request.
 
-{/* Import CSS modules */}
-import styles from '../components/counters.module.css'
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/identity/qr/qr=qw123hgbn45lk67xc89yu/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
 
-export const Counter = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setCount(count + 1)} className={styles.counter}>Clicked {count} times</button>
-    </div>
-  );
-};
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/identity/nic/nic=200104562876/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
+Sample request call for **Passport** details by using **post** request.
 
-<Counter/>
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/passport/qr/qr=qw123hgbn45lk67xc89yu/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
 
-## External Component
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/passport/nic/nic=200104562876/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
 
-import Counters from '../components/counters'
+Sample request call for **License** details by using **post** request.
 
-<Counters />
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/license/qr/qr=qw123hgbn45lk67xc89yu/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
+
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/license/nic/nic=200104562876/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
+
+Sample request call for **personal** details by using **post** request.
+
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/personal/qr/qr=qw123hgbn45lk67xc89yu/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
+
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/personal/nic/nic=200104562876/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
+
+Sample request call for **police** details by using **post** request.
+
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/police/qr/qr=qw123hgbn45lk67xc89yu/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
+
+```js filename="request" {3} copy
+{BASEURL_FOR_TEST_OR_API}/post/police/nic/nic=200104562876/api={THAHAWURU_API_LICENSE_ID_PASSPORT}
+```
+
+Developers should integrate our API to their platforms for ease of access of data after ensuring privacy of data in users.
